@@ -10,9 +10,9 @@ The first step in using Elastic Beanstalk is to create an application, which rep
 AWS Elastic Beanstalk makes it easy to create new environments for your application. You can create and manage separate environments for development, testing, and production use, and you can deploy any version of your application to any environment. Environments can be long-running or temporary. When you terminate an environment, you can save its configuration to recreate it later.
 
 **Infrastructure for Prod & Dev/Stage:**
-[![Alt Text](https://github.com/prakhya79/ElasticBeanStalk/blob/master/prodinfra.png)]
+![Alt Text](https://github.com/prakhya79/ElasticBeanStalk/blob/master/prodinfra.png)
 
-[![Alt Text](https://github.com/prakhya79/ElasticBeanStalk/blob/master/devinfra.png)]
+![Alt Text](https://github.com/prakhya79/ElasticBeanStalk/blob/master/devinfra.png)
 
 **Capabilities:**
 
