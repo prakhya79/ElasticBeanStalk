@@ -50,9 +50,9 @@ Once after elastic beanstalk application is created, we may update the environme
 
 We can add .ebextensions with source code to configure your environment and customize the AWS resources that it contains. Environment variables for the beanstalk environment can be updated as shown below in any configuration file of .ebextensions folder.
 
->`1  option_settings: 
- >2       aws:elasticbeanstalk:application:environment:
- >3       DB_Host: Some_host_name`
+* option_settings: 
+*   aws:elasticbeanstalk:application:environment:
+*   DB_Host: Some_host_name`
 
 
 For more information regarding .ebextensions please go through the [documentation](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/ebextensions.html "https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/ebextensions.html").
